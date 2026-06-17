@@ -10,10 +10,10 @@ export default function TabLayout() {
                 },
                 headerTintColor: '#fff',
                 headerShadowVisible: false,
-                tabBarActiveTintColor: '#ff4444', // Mudado de Amarelo para Vermelho
+                tabBarActiveTintColor: '#ff4444', 
                 tabBarInactiveTintColor: '#888',
                 tabBarStyle: {
-                    backgroundColor: '#1f2227', //
+                    backgroundColor: '#1f2227', 
                     borderTopWidth: 0,
                     height: 60,
                     paddingBottom: 8,
@@ -39,7 +39,7 @@ export default function TabLayout() {
                 options={{
                     title: 'Pokédex',
                     tabBarIcon: ({ color }) => (
-                        <MaterialCommunityIcons name="tablet-android" size={28} color={color} />
+                        <MaterialCommunityIcons size={28} color={color} />
                     ),
                 }}
             />

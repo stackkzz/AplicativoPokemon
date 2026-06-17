@@ -6,7 +6,7 @@ const { width } = Dimensions.get('window');
 export default function AboutScreen() {
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
-      {/* Banner Principal com Logo */}
+     
       <View style={styles.headerBanner}>
         <Image 
           source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg' }} 
@@ -19,7 +19,7 @@ export default function AboutScreen() {
 
       <View style={styles.content}>
         
-        {/* Seção 1: O Fenômeno */}
+     
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>O que são Pokémon?</Text>
           <Text style={styles.paragraph}>
@@ -27,7 +27,7 @@ export default function AboutScreen() {
           </Text>
         </View>
 
-        {/* Seção 2: Curiosidades do Mundo */}
+     
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Curiosidades do Mundo</Text>
           <View style={styles.infoCard}>
@@ -37,7 +37,7 @@ export default function AboutScreen() {
           </View>
         </View>
 
-        {/* Seção 3: Sobre a Empresa (The Pokémon Company) */}
+       
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>The Pokémon Company</Text>
           <View style={styles.companyCard}>
@@ -66,7 +66,7 @@ export default function AboutScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e', // Mantive a sua cor de fundo original
+    backgroundColor: '#25292e', 
   },
   headerBanner: {
     alignItems: 'center',
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     paddingBottom: 30,
   },
   logoImage: {
-    width: width * 0.7, // Logo ocupa 70% da largura da tela para destaque
+    width: width * 0.7, 
     height: 100,
     marginBottom: 10,
   },
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#FFCB05', // Amarelo Pokémon para os títulos
+    color: '#FFCB05', 
     marginBottom: 12,
   },
   paragraph: {
