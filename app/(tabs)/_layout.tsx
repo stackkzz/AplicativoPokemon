@@ -63,6 +63,16 @@ export default function TabLayout() {
                     ),
                 }}
             />
+
+            <Tabs.Screen
+                name="teamBuilder"
+                options={{
+                    title: 'Time',
+                    tabBarIcon: ({ color }) => (
+                        <MaterialCommunityIcons name="shield-half-full" size={28} color={color} />
+                    ),
+                }}
+            />
         </Tabs>
     );
 }
